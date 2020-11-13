@@ -1,18 +1,15 @@
-/*.App {
+/* .App {
   text-align: center;
 }
-*/
+
 .App-box {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-box{
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-/*
+
+  
+
 .App-header {
   
   
@@ -44,4 +41,25 @@
 @keyframes {
   from {top: 0px;}
   to {top: 200px;}
-}*/
+} */
+.card{
+  padding: 0%;
+  display:inline-block;
+  margin: 15px;
+  position: relative;
+  background-color: blue;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  text-align: center;
+
+  width:200px;
+  height: 300px;
+  border-radius: 12px
+}
+h1{
+  text-align: center;
+  color: azure;
+}
+img{
+  width: 100px;
+  height: 200px;
+}
